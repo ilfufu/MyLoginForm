@@ -1,0 +1,112 @@
+.container {
+    background-color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/* 相对位移使整体居中 */
+
+    height: 100%;
+    width: 50%;
+
+    border-radius: 3%;
+}
+
+.img{
+    height: 25%;
+    text-align: center;
+}
+
+.username_text{
+    height: 10%;
+    position: relative;
+}
+
+.username_text .text{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+.username_input_container{
+    height: 10%;
+    position: relative;
+}
+
+.username_input_container .input{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+
+    width: 50%;
+    height: 50%;
+
+    font-size: 1.125em;
+    font-family: Arial;
+}
+
+.password_text{
+    height: 10%;
+    position: relative;
+}
+
+.password_text .text{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.password_input_container{
+    height: 10%;
+    position: relative;
+}
+
+.password_input_container .input{
+    position: absolute;
+    top: 0%;
+    left: 25%;
+
+    width: 50%;
+    height: 50%;
+
+    font-size: 1.125em;
+    font-family: Arial;
+}
+
+.login{
+    height: 12.5%;
+    position: relative;
+}
+
+.login .pushbutton{
+    position: absolute;
+    top: 25%;
+    left: 25.5%;
+
+    width: 50%;
+    height: 50%;
+
+    background-color: #3aa8e7;
+    border-color: #3aa8e7;
+
+    color: white;
+
+    font-size: 1.125em;
+    font-family: Arial;
+}
+
+.login .pushbutton:hover{
+    background-color: #207de0;
+    border-color: #207de0;
+}
+
+.register{
+    height: 21.5%;
+    position: relative;
+}
+
+.register .text{
+    position: absolute;
+    top: 5%;
+    left: 23%;
+}
